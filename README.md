@@ -23,3 +23,16 @@ git clone https://github.com/abuesbol74-source/Utang-Kantin-Manager.git
 cd Utang-Kantin-Manager
 chmod +x utang_kantin.sh
 ./utang_kantin.sh
+
+
+## 📱 Instalasi di Termux (Android)
+Buka aplikasi Termux dan jalankan perintah berikut:
+```bash
+pkg update && pkg upgrade -y
+pkg install git bash -y
+git clone https://github.com/abuesbol74-source/Utang-Kantin-Manager.git
+cd Utang-Kantin-Manager
+chmod +x utang_kantin.sh
+./utang_kantin.sh
+
+
