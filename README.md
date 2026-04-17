@@ -1,37 +1,19 @@
 # 🍽️ Utang Kantin Manager (Bash Script)
-Script sederhana berbasis Bash untuk mencatat dan mengelola utang kantin serta rokok. Sangat berguna untuk memantau catatan utang secara rapi dan sistematis melalui terminal.
+Script sederhana berbasis Bash untuk mencatat dan mengelola utang kantin serta rokok.
 
-## ✨ Fitur Utama
-- **🌍 Dual Support**: Mendukung format mata uang dan tanggal untuk **Indonesia (Rp)** dan **Malaysia (RM)**.
-- **🚬 Spesialis Rokok**: Fitur khusus catat utang rokok per selop dengan hitungan otomatis.
-- **🗑️ Manajemen Data**: Fitur untuk melihat, menghapus satu catatan, atau menghapus seluruh database.
+---
 
-## 📱 Instalasi di Termux (Android)
-Buka aplikasi Termux dan jalankan perintah satu per satu:
+## ⚡ PERINTAH SAKTI (CURL INSTALLER)
+Cukup salin dan tempel satu baris perintah ini di terminal:
+
+### 📱 Untuk Termux (Android)
 ```bash
-pkg update
-pkg upgrade -y
-pkg install git -y
-pkg install bash -y
-pkg install bc -y
-git clone https://github.com/abuesbol74-source/Utang-Kantin-Manager.git
-cd Utang-Kantin-Manager
-chmod +x utang_kantin.sh
-./utang_kantin.sh
+pkg update -y && pkg install curl -y && bash <(curl -fsSL https://raw.githubusercontent.com/abuesbol74-source/Utang-Kantin-Manager/main/utang_kantin.sh)
 ```
 
-## 🐧 Instalasi di Kali Linux / Debian / Ubuntu
-Buka terminal dan jalankan perintah satu per satu:
+### 🐧 Untuk Kali Linux / Debian / Ubuntu
 ```bash
-sudo apt update
-sudo apt upgrade -y
-sudo apt install git -y
-sudo apt install bash -y
-sudo apt install bc -y
-git clone https://github.com/abuesbol74-source/Utang-Kantin-Manager.git
-cd Utang-Kantin-Manager
-chmod +x utang_kantin.sh
-./utang_kantin.sh
+sudo apt update && sudo apt install curl -y && bash <(curl -fsSL https://raw.githubusercontent.com/abuesbol74-source/Utang-Kantin-Manager/main/utang_kantin.sh)
 ```
 
 ---
