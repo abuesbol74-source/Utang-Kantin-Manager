@@ -36,4 +36,3 @@ chmod +x utang_kantin.sh
 
 ---
 **Created by : LAKSAMANA DZU NUR AIN**
-**Team : -TEAM MR SOUL- (MR-J86)**
